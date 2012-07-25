@@ -1,0 +1,19 @@
+﻿Name: Piedone Content Types
+AntiForgery: enabled
+Author: Piedone
+Website: http://orchardcontenttypes.codeplex.com/
+Version: 1.0
+OrchardVersion: 1.5
+Description: Contains some custom Orchard content types.
+FeatureDescription: Contains some custom Orchard content types.
+Features:
+    Piedone.ContentTypes.HierarchicalPages:
+		Name: Hierarchical Pages
+        Description: Creates a Hierarchical Page content type that does everything the built-in Page type does, but items can also contain other pages (and thus are containable by other pages too).
+		Category: Content
+		Dependencies: Piedone.ContentTypes, Orchard.Autoroute, Title, Common, Containers
+	Piedone.ContentTypes.ContentLinks:
+		Name: Content Links
+        Description: Creates a Content Link content type that can be used to display links to content items.
+		Category: Content
+		Dependencies: Piedone.ContentTypes, Orchard.ContentPicker, Title

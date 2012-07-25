@@ -1,0 +1,8 @@
+﻿<Placement>
+    <Match ContentType="ContentLink">
+        <Place Fields_ContentPicker-AttachedContent="-"
+               Fields_ContentPicker_SummaryAdmin-AttachedContent="-"
+               Parts_Common_Metadata_Summary="-"
+               Parts_Common_Metadata="-"/>
+    </Match>
+</Placement>

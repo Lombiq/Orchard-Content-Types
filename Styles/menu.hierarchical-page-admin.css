@@ -1,0 +1,8 @@
+﻿.navicon-hierarchical-page, .section-new .subnavicon-hierarchical-page
+{
+    background-image: url(images/menu.hierarchical-page.png) !important;
+}
+.navicon-hierarchical-page:hover
+{
+    background-position: 0 -30px !important;
+}

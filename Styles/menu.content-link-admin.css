@@ -1,0 +1,8 @@
+﻿.navicon-content-link, .section-new .subnavicon-content-link
+{
+    background-image: url(images/menu.content-link.png) !important;
+}
+.navicon-content-link:hover
+{
+    background-position: 0 -30px !important;
+}
