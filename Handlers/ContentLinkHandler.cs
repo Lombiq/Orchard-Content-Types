@@ -26,7 +26,9 @@ namespace Piedone.ContentTypes.Handlers
             var item = context.ContentItem;
             if (item.ContentType != "ContentLink") return;
 
-            var attachedContentId = ((int[])((dynamic)item).ContentLink.AttachedContent.Ids).First();
+            var attachedContentIds = (int[])((dynamic)item).ContentLink.AttachedContent.Ids;
+            if (attachedContentIds.Count() == 0) return;
+            var attachedContentId = attachedContentIds.First();
 
             var contentManager = _contentManagerWork.Value;
             var content = contentManager.Get(attachedContentId);
