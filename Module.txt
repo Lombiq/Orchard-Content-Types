@@ -6,6 +6,7 @@ Version: 1.0
 OrchardVersion: 1.5
 Description: Contains some custom Orchard content types.
 FeatureDescription: Contains some custom Orchard content types.
+Category: Content
 Features:
     Piedone.ContentTypes.HierarchicalPages:
 		Name: Hierarchical Pages
