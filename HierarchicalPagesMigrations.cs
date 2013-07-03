@@ -12,20 +12,21 @@ namespace Piedone.ContentTypes
         {
             ContentDefinitionManager.AlterTypeDefinition("HierarchicalPage",
                 cfg => cfg
-                .WithPart("CommonPart", p => p
-                    .WithSetting("DateEditorSettings.ShowDateEditor", "true"))
-                .WithPart("PublishLaterPart")
-                .WithPart("TitlePart")
-                .WithPart("AutoroutePart", builder => builder
-                    .WithSetting("AutorouteSettings.AllowCustomPattern", "true")
-                    .WithSetting("AutorouteSettings.AutomaticAdjustmentOnEdit", "false")
-                    .WithSetting("AutorouteSettings.PatternDefinitions", "[{Name:'Parent and Title', Pattern: '{Content.Container.Path}/{Content.Slug}', Description: 'my-parent/my-page'}]")
-                    .WithSetting("AutorouteSettings.DefaultPatternIndex", "0"))
-                .WithPart("ContainerPart")
-                .WithPart("ContainablePart")
-                .WithPart("BodyPart")
-                .Creatable()
-                .Draftable());
+                    .WithPart("CommonPart", p => p
+                        .WithSetting("DateEditorSettings.ShowDateEditor", "true"))
+                    .WithPart("PublishLaterPart")
+                    .WithPart("TitlePart")
+                    .WithPart("AutoroutePart", builder => builder
+                        .WithSetting("AutorouteSettings.AllowCustomPattern", "true")
+                        .WithSetting("AutorouteSettings.AutomaticAdjustmentOnEdit", "false")
+                        .WithSetting("AutorouteSettings.PatternDefinitions", "[{Name:'Parent and Title', Pattern: '{Content.Container.Path}/{Content.Slug}', Description: 'my-parent/my-page'}]")
+                        .WithSetting("AutorouteSettings.DefaultPatternIndex", "0"))
+                    .WithPart("ContainerPart")
+                    .WithPart("ContainablePart")
+                    .WithPart("BodyPart")
+                    .Creatable()
+                    .Draftable()
+            );
 
             return 1;
         }

@@ -25,7 +25,8 @@ namespace Piedone.ContentTypes
                         .WithSetting("OwnerEditorSettings.ShowOwnerEditor", "false"))
                     .WithPart("TitlePart")
                     .WithPart("ContentLink")
-                    .Creatable());
+                    .Creatable()
+                );
 
             return 1;
         }
