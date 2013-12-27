@@ -3,7 +3,7 @@ AntiForgery: enabled
 Author: Piedone
 Website: http://orchardcontenttypes.codeplex.com/
 Version: 1.0.1
-OrchardVersion: 1.5
+OrchardVersion: 1.8
 Description: Contains some custom Orchard content types.
 FeatureDescription: Contains some custom Orchard content types.
 Category: Content
