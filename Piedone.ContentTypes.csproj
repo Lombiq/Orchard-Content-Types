@@ -76,7 +76,6 @@
     <Content Include="Styles\images\menu.hierarchical-page.png" />
     <Content Include="Styles\menu.hierarchical-page-admin.css" />
     <Content Include="Web.config" />
-    <Content Include="Scripts\Web.config" />
     <Content Include="Styles\Web.config" />
     <Content Include="Properties\AssemblyInfo.cs" />
     <Content Include="Module.txt" />
