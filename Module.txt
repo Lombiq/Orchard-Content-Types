@@ -1,7 +1,7 @@
 ﻿Name: Piedone Content Types
 AntiForgery: enabled
 Author: Piedone
-Website: http://orchardcontenttypes.codeplex.com/
+Website: https://github.com/Lombiq/Orchard-Content-Types
 Version: 1.0.1
 OrchardVersion: 1.8
 Description: Contains some custom Orchard content types.

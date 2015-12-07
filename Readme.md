@@ -23,9 +23,9 @@ Contains some custom Orchard content types. Successor of the Hierarchical Pages 
 
 After installation you'll see new features, each containing a content type:
 - Hierarchical Pages: items of type Hierarchical Page can contain other such items and they're containable too (with the Container/Containable parts). The url slug of items will contain the slug of their parent by default.
-- Content Links: content Link items are links to other content items that can be used to e.g. add links that point to ProjectionPages to a Projection.
+- Content Links: content Link items are links to other content items that can be used to e.g. add links that point to ProjectionPages to a Projection.  
 
-## See the [Version history](Docs/VersionHistory.md)
+**See the [Version history](Docs/VersionHistory.md).**
 
 You can install the module from the [Gallery](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Piedone.ContentTypes).
 
