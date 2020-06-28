@@ -1,8 +1,8 @@
-# Orchard Content Types Readme
+# Orchard Content Types
 
 
 
-## Project Description
+## About
 
 Contains some custom Orchard content types. Successor of the Hierarchical Pages module.
 
@@ -29,12 +29,9 @@ After installation you'll see new features, each containing a content type:
 
 You can install the module from the [Gallery](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Piedone.ContentTypes).
 
-The module's source is available in two public source repositories, automatically mirrored in both directions with [Git-hg Mirror](https://githgmirror.com):
 
-- [https://bitbucket.org/Lombiq/orchard-content-types](https://bitbucket.org/Lombiq/orchard-content-types) (Mercurial repository)
-- [https://github.com/Lombiq/Orchard-Content-Types](https://github.com/Lombiq/Orchard-Content-Types) (Git repository)
+## Contributing and support
 
-Bug reports, feature requests and comments are warmly welcome, **please do so via GitHub**.
-Feel free to send pull requests too, no matter which source repository you choose for this purpose.
+Bug reports, feature requests, comments, questions, code contributions, and love letters are warmly welcome, please do so via GitHub issues and pull requests. Please adhere to our [open-source guidelines](https://lombiq.com/open-source-guidelines) while doing so.
 
-This project is developed by [Lombiq Technologies Ltd](http://lombiq.com/). Commercial-grade support is available through Lombiq.
+This project is developed by [Lombiq Technologies](https://lombiq.com/). Commercial-grade support is available through Lombiq.
